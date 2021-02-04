@@ -191,7 +191,7 @@
                 "enable": false, // 开关，需要开启请直接把本项删除或设置为true
                 "name": "server酱消息推送", // webhook名称，仅用于日志显示不用于实际消息推送
                 "msg_separ": "\n\n",       // 消息分隔符，推送消息时将每一条消息用两个换行符(\n)隔开
-                "method": 1,               // 请求方式,0为get,1为post,3为以json方式post
+                "method": 3,               // 请求方式,0为get,1为post,3为以json方式post
                 "url": "https://push.xuthus.cc/psend/{SKEY}", // 请求地址,{SCKEY}为对上面variable变量中的SCKEY的引用，当然也可以直接把SCKEY的值放在url里面
                 "params": {                                // 请求参数,server酱推送需要text和desp两个参数，分别把变量里title和msg_simple(简化消息)赋值进去
                     "c": "{msg_simple}"
