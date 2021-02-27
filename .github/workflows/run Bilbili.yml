@@ -1,4 +1,4 @@
-name: 'run Bilbili.'
+name: 'run Bilbili'
 
 on:
   schedule:
