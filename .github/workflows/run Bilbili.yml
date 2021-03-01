@@ -2,7 +2,8 @@ name: 'run Bilbili'
 
 on:
   schedule:
-    - cron: '0 * * * *' #中午12:00执行，修改时注意时区
+    - cron: '0 8,9,10,11,12,13,14,15,16 * * *' #中午12:00执行，修改时注意时区
+    
   watch:
     types: started
   workflow_dispatch:
